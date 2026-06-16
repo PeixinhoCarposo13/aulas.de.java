@@ -1,0 +1,55 @@
+TIPOS PRIMITIVOS DO JAVA
+
+1. Tipos numéricos inteiros
+
+byte
+- Tamanho: 8 bits
+- Valores: -128 a 127
+- Valor padrão: 0
+
+short
+- Tamanho: 16 bits
+- Valores: -32.768 a 32.767
+- Valor padrão: 0
+
+int
+- Tamanho: 32 bits
+- Valores: -2.147.483.648 a 2.147.483.647
+- Valor padrão: 0
+
+long
+- Tamanho: 64 bits
+- Valores: -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
+- Valor padrão: 0L
+
+--------------------------------------------------
+
+2. Tipos numéricos com ponto flutuante
+
+float
+- Tamanho: 32 bits
+- Valores: aproximadamente ±1,4E-45 a ±3,4E38
+- Valor padrão: 0.0f
+
+double
+- Tamanho: 64 bits
+- Valores: aproximadamente ±4,9E-324 a ±1,8E308
+- Valor padrão: 0.0d
+
+--------------------------------------------------
+
+3. Caractere Unicode
+
+char
+- Tamanho: 16 bits
+- Valores: '\u0000' a '\uFFFF'
+- Valor padrão: '\u0000'
+
+--------------------------------------------------
+
+4. Valor lógico
+
+boolean
+- Tamanho: não definido pela especificação da linguagem
+- Valores: true ou false
+- Valor padrão: false
