@@ -1,0 +1,14 @@
+ALGORITMO, AUTOMAÇÃO, PROGRAMA DE COMPUTADOR
+
+ALGORITMO -> Sequencia finita de instruções para se resolver um problema;
+
+AUTOMAÇÃO -> Utilizar máquinas para executar o procedimento desejado de forma automática ou semi-automática;
+
+COMPUTADOR -> HARDWARE: Parte Fisica;
+           -> SOFTWARE: Parte Lógica;
+
+CÓDIGO FONTE -> Código escrito pelo programador em linguagem de programação;
+
+COMPILAÇÃO -> É o processo que transforma o código fonte em um código que a máquina entenda;
+
+INTERPRETAÇÃO -> processo onde um programa tradutor, chamado interpretador, lê o código-fonte escrito pelo desenvolvedor e o executa na mesma hora;

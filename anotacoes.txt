@@ -1,3 +1,0 @@
-ALGORITMO, AUTOMAÇÃO, PROGRAMA DE COMPUTADOR
-
-ALGORITMO -> Sequencia finita de instruções para se resolver um problema
