@@ -1,0 +1,11 @@
+-> QUANDO VOCË FOR DESENVOLVER UM PROJETO JAVA, VOCÊ DEVE UTILIZAR UMA VERSÃO LTS;
+
+-> O QUE É UMA VERSÃO LTS DO JAVA? é uma versão especial da linguagem feita para durar. 
+Em vez de ser atualizada rapidamente, ela recebe anos de correções de segurança e bugs.
+
+-> JVM - Java Virtual Machine: necessária para executar sistemas java;
+
+-> Java é uma linguagem orientada a objetos, e a unidade de orientação básica é a classe( class ),
+depois das classes vamos ter o agrupamento em pacotes ( que é o agrupamento de classes que se relacionam ),
+depois dos pacotes vamos ter o conceito de módulo ( que é o agrupamento de pacotes relacionados ),
+por fim temos a aplicação( que é o agrupamento de módulos relacionados );

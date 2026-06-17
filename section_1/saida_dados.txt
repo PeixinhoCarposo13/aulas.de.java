@@ -1,0 +1,29 @@
+SEM QUEBRA DE LINHA -> System.out.print("");
+
+COM QUEBRA DE LINHA -> System.out.println("");
+
+ESCREVER O CONTEUDO DE UMA VARIAVEL -> int y = 2;
+                                       System.out.println(y);
+
+ESCREVER O CONTEUDO DE UMA VARIAVEL COM PONTO FLUTUANTE -> double y = 1.12345;
+                                                           System.out.println(y);
+                                                           System.out.println("%.2f%n", y);
+
+PARA CONSIDERAR O SEPARADOR DOS DECIMAIS COMO PONTO -> import java.util.Locale;
+                                                       Locale.setDefault(Locale.US);
+
+PARA CONCATENAR VARIOS ELEMENTOS -> System.out.println("ELEMENTO1" + "ELEMENTO2");
+
+PARA CONCATENAR VARIOS ELEMENTOS MAIS FÁCIL -> System.out.printf("O resultado é %d em metros\n", y );
+
+PARA CONCATENAR ELEMENTOS DE TIPOS DIFERENTES -> String nome = "Henry";
+                                                 int idade = 19;
+                                                 double nota = 7.632;
+                                                 System.out.printf("A nota do %s é %.2f e ele tem %d anos", nome, nota, idade);
+
+QUANDO TIVER UMA CONTA ENTRE INTEIROS E UM RESULTADO FOR DOUBLE -> int x = 5;
+                                                                   int y = 2;
+                                                                   double resultado = (double) x / y;
+
+QUANDO FOR TRANSFORMAR DE DOUBLE PARA INT -> double f = 2.636;
+                                             int g = (int) f;
