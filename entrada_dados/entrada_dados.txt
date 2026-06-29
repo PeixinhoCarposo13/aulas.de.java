@@ -1,0 +1,41 @@
+ENTRADA DE DADOS STRING SEM ESPAÇO:  
+
+    import java.util.Scanner;
+
+    Scanner sc = new Scanner(System.in);
+
+    x = sc.next();
+
+ENTRADA DE DADOS INTEIRO:  
+
+    import java.util.Scanner;
+
+    Scanner sc = new Scanner(System.in);
+
+    x = sc.nextInt();
+
+ENTRADA DE DADOS PONTO FLUTUANTE:  
+
+    import java.util.Locale;
+    import java.util.Scanner;
+
+    Locale.setDefault(Locale.US); Para eu poder usar ponto
+    Scanner sc = new Scanner(System.in);
+
+    x = sc.nextDouble();
+
+ENTRADA DE DADOS CHAR:  
+
+    import java.util.Scanner;
+    
+    Scanner sc = new Scanner(System.in);
+
+    x = sc.next().charAt(0);
+
+ENTRADA DE DADOS STRING COM ESPAÇO:  
+
+    import java.util.Scanner;
+
+    Scanner sc = new Scanner(System.in);
+
+    x = sc.nextLine();

@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class App {
+public class saida_dados {
     public static void main(String[] args) throws Exception {
         int y = 2;
         double x = 1.12345;
