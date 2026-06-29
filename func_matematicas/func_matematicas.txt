@@ -1,0 +1,8 @@
+FUNÇÃO DE RAIZ QUADRADA:
+    raiz_quadrada = Math.sqrt(x);
+
+FUNÇÃO DE X ELEVADO A Y:
+    elevado = Math.pow(x, y);
+
+FUNÇÃO DE VALOR ABSOLUTO:
+    absoluto = Math.abs(x);

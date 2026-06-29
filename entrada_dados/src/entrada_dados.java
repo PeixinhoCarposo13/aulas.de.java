@@ -15,6 +15,7 @@ public class entrada_dados {
         y = sc.nextInt();
         z = sc.nextDouble();
         c = sc.next().charAt(0);
+        sc.nextLine(); // Limpa o buffer do scanner para ler a próxima linha corretamente
         texto = sc.nextLine(); // Lê o restante da linha após o caractere
 
         System.out.println("Você digitou: " + x);
