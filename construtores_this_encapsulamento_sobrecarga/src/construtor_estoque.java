@@ -1,10 +1,4 @@
-/* 
-Fazer um programa para ler os dados de um produto em estoque (nome, preço e quantidade no estoque). Em seguida:
 
-Mostrar os dados do produto (nome, preço, quantidade no estoque, valor total no estoque).
-Realizar uma entrada no estoque e mostrar novamente os dados do produto.
-Realizar uma saída no estoque e mostrar novamente os dados do produto.
-*/
 import java.util.Scanner;
 import entities.ProdutosConstrutor;
 
@@ -45,10 +39,10 @@ public class construtor_estoque {
                     continue;
                 }
 
-                System.out.printf("Digite a quantidade de %s que deseja vender: ", p.nome);
+                System.out.printf("Digite a quantidade de %s que deseja vender: ", p.getNome());
                 quantidadeVendida = sc.nextInt();
 
-                if (quantidadeVendida > p.quantidade) {
+                if (quantidadeVendida > p.getQuantidade()) {
                     System.out.println("Quantidade indisponível em estoque.");
                 } else {
                     p.removerProdutos(quantidadeVendida);
@@ -63,7 +57,7 @@ public class construtor_estoque {
                     continue;
                 }
 
-                System.out.printf("Digite a quantidade de %s que deseja adicionar ao estoque: ", p.nome);
+                System.out.printf("Digite a quantidade de %s que deseja adicionar ao estoque: ", p.getNome());
                 quantidadeAdicionada = sc.nextInt();
 
                 p.adicionarProdutos(quantidadeAdicionada);
