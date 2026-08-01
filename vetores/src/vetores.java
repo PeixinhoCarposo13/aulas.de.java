@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import entities.products;
 
 public class vetores {
     public static void main(String[] args) throws Exception {
@@ -7,8 +6,6 @@ public class vetores {
 
         System.out.print("Quantos elementos vai ter o vetor? ");
         int n = sc.nextInt();
-
-        Products[] vetorProdutos = new Products[n];
 
         double[] vetor = new double[n];
         double soma = 0.0;
