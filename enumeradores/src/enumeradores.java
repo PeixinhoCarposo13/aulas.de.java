@@ -9,8 +9,6 @@ public class enumeradores {
 
         order o = new order(123, new Date(), order.OrderStatus.valueOf("PROCESSING"));
 
-       
-
         System.out.println(o);
         System.out.println("Status1: " + status1);
          System.out.println("Status2: " + status2);
